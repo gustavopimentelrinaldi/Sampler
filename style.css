@@ -1,0 +1,216 @@
+@font-face {
+  font-family: April;
+  src: url(font/April.otf);
+}
+
+body{
+  font-family: 'April';
+  background-color: #3a6073; 
+}
+
+.keys{
+  height: auto; width: 952px;
+  border-radius: 9px;
+  margin: 5em 0 0 17em;
+  color: #eee;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.key{
+  width: 50px; height:50px;
+  float:left;
+  padding: 1rem;
+  text-align: center;
+  transition: all .07s ease;
+}
+
+/* row-1 */
+.cyeah{
+  background: #45DFD1;
+}
+
+.wyeah{
+  background: #4CE1D3;
+}
+
+.vnight{
+  background: #53E5D4;
+}
+
+.piano{
+  background: #5CE9D5;
+}
+
+.guitar{
+  background: #64ECD7;
+}
+
+.yeah{
+  background: #6CF0D8;
+}
+
+.kick1{
+  background: #75F4D9;
+}
+
+.ride2{
+  background: #7CF7DA;
+}
+
+.harp{
+  background: #82FADB;
+}
+
+.a808{
+  background: #8AFDDC;
+}
+
+/* row-Q */
+.clap{
+  background: #BDBFFD;
+}
+
+.snap{
+  background: #BCBCFC;
+}
+
+.rim{
+  background: #BBB5FB;
+}
+
+.snare{
+  background: #B9AEF9;
+}
+
+.snare2{
+  background: #B8A7F8;
+}
+
+.kick{
+  background: #B69FF6;
+}
+
+.kick2{
+  background: #B598F4;
+}
+
+.a8081{
+  background: #B38FF2;
+}
+
+.a8082{
+  background: #B188F1;
+}
+
+.a8083{
+  background: #AF81EF;
+}
+
+/* row A */
+.hat{
+  background: #8AFDDC;
+}
+
+.hat2{
+  background: #82FADB;
+}
+
+.claves{
+  background: #7CF7DA;
+}
+
+.triangle{
+  background: #75F4D9;
+}
+
+.shaker{
+  background: #6CF0D8;
+}
+
+.crash{
+  background: #64ECD7;
+}
+
+.gun{
+  background: #5CE9D5;
+}
+
+.conga{
+  background: #53E5D4;
+}
+
+.conga2{
+  background: #4CE1D3;
+}
+
+.stick{
+  background: #45DFD1;
+}
+
+/* row-Z */
+.keys1{
+  background: #ff9e91;
+}
+
+.keys2{
+  background: #ff988c;
+}
+
+.keys3{
+  background: #fd9388;
+}
+
+.keys4{
+  background: #ff8f82;
+}
+
+.keys5{
+  background: #ff887b;
+}
+
+.keys6{
+  background: #ff8577;
+}
+
+.guitar1{
+  background: #ff8173;
+}
+
+.sound {
+  color: rgba(40,42,48,0.4);
+  text-transform: uppercase;
+  -webkit-transition: opacity 0.2s ease-out;
+  -moz-transition: opacity 0.2s ease-out;
+  -o-transition: opacity 0.2s ease-out;
+  -ms-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
+}
+
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+.row-1{
+  padding: 0;
+}
+
+.row-Q{
+  padding: 0;
+  width: 900px;
+}
+
+.row-A{
+  padding: 0;
+}
+
+.row-Z{
+ padding: 0;
+}
